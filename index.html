@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Arcarum-阿卡魯姆的轉世</title>
+    <meta name="description" content="通過在Arcarum轉世系統中進行探索和戰鬥，可以獲取轉世系列召喚石。轉世召喚石的獨特之處在於，它們均可以提供十分​​強力的SUB加護效果——即使只是將其裝備在副召喚槽內，也可以為全隊提供強大的增益效果。">
+    <link rel="stylesheet" href="dist/bootstrap-421/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/default.css">
+</head>
+<body>
+    <!--導覽列-->
+    <nav>
+        <div class="containerNAV">
+            <a href="#" class="logo"></a>
+            <a href="#" class="fas fa-bars"></a>
+            <a href="#" class="fas fa-times"></a>
+            <div class="linkbar">
+                <a href="#about" id="aboutbtn">阿卡魯姆的轉世</a>
+                <a href="#evokers" id="evokersbtn">十賢者介紹</a>
+                <a href="#summons" id="summonsbtn">召喚石介紹</a>
+                <a href="#materials" id="materialsbtn">素材交換一覽</a>
+                <a href="#gacha" id="gachabtn">轉蛋小遊戲</a>
+                <div class="iconbar">
+                    <a href="https://twitter.com/granbluefantasy" class="fab fa-twitter" target="_blank"></a>
+                    <a href="tel:0225219192" class="fas fa-phone-volume"></a>
+                    <a href="https://goo.gl/maps/zxmq6mzgnhUaGzs69" class="fas fa-map-marker-alt" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--輪播效果-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/banner/banner_1.jpg" class="d-block w-100" alt="Arcarum-阿卡魯姆的轉世">
+            </div>
+            <div class="carousel-item">
+                <img src="images/banner/banner_2.jpg" class="d-block w-100" alt="Arcarum-阿卡魯姆的轉世">
+            </div>
+            <div class="carousel-item">
+                <img src="images/banner/banner_3.jpg" class="d-block w-100" alt="Arcarum-阿卡魯姆的轉世">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--阿卡魯姆的轉世-->
+    <div class="container pud-30" id="about">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12"><img src="images/arcarum_system.png" alt="轉世系統-Arcarum_System" class="img-fluid rounded mx-auto d-block pud-30"></div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <h1 class="pud-30 font-weight-bold">阿卡魯姆的轉世</h1>
+                <p>阿卡魯姆的轉世為手機遊戲Granblue Fantasy當中的一個系統，命名源自於22張大阿爾克那塔羅牌，在轉世系統中前11張代表賢者，後11張代表賢者對應的召喚石。其中第10號的賢者-命運之輪與第21號的召喚石-世界在遊戲中尚未實裝。</p>
+                <p>轉世系統又名塔羅系統，通過在轉世系統中進行探索和戰鬥，可以獲取轉世系列召喚石。轉世召喚石的獨特之處在於，它們均可以提供十分​​強力的SUB加護效果——即使只是將其裝備在副召喚槽內，也可以為全隊提供強大的增益效果。</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 十賢者介紹 -->
+    <div class="parallax-evokers">
+        <div class="container pud-30" id="evokers">
+            <h2 class="pud-30 text-center font-weight-bold">十賢者介紹<br>Arcarum Evokers</h2>
+            <p>轉世系列的十個召喚石分別與一位賢者簽訂契約，將轉世系列召喚石五凸、取得賢者所需前置素材，並通過與對應召喚石的單人戰鬥關卡後，即可取得賢者。<br>六屬性中火、水、風、土各有兩位賢者，光與闇屬各一位。</p>
+
+            <ul class="nav nav-tabs evokers_tab" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="justice-tab" data-toggle="tab" href="#justice" role="tab" aria-controls="justice" aria-selected="true">女帝</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="hangedman-tab" data-toggle="tab" href="#hangedman" role="tab" aria-controls="hangedman" aria-selected="false">愚者</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="death-tab" data-toggle="tab" href="#death" role="tab" aria-controls="death" aria-selected="false">戀人</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="temperance-tab" data-toggle="tab" href="#temperance" role="tab" aria-controls="temperance" aria-selected="false">隱者</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="devil-tab" data-toggle="tab" href="#devil" role="tab" aria-controls="devil" aria-selected="false">力量</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="tower-tab" data-toggle="tab" href="#tower" role="tab" aria-controls="tower" aria-selected="false">魔術師</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="star-tab" data-toggle="tab" href="#star" role="tab" aria-controls="star" aria-selected="false">戰車</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="moon-tab" data-toggle="tab" href="#moon" role="tab" aria-controls="moon" aria-selected="false">女教皇</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="sun-tab" data-toggle="tab" href="#sun" role="tab" aria-controls="sun" aria-selected="false">教皇</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="judgement-tab" data-toggle="tab" href="#judgement" role="tab" aria-controls="judgement" aria-selected="false">皇帝</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="evokersContent">
+                <div class="tab-pane fade show active" id="justice" role="tabpanel" aria-labelledby="justice-tab">
+                    <h3>女帝</h3><h2>瑪利亞·特蕾莎</h2>
+                    <img src="images/evokers/001.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/002.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>神聖羅馬帝國的瑪麗亞·特蕾莎，也是以女性統治者為賣點，同樣也經歷過繼承人的鬥爭，就連他的名言「寧要中庸的和平，不要輝煌的戰爭。」，也被改詞後套用在GBF特蕾莎的角色台詞中。<br>因為典故來自羅馬，所以技能組命名也都是義大利語。</p>
+                </div>
+                <div class="tab-pane fade" id="hangedman" role="tabpanel" aria-labelledby="hangedman-tab">
+                    <h3>愚者</h3><h2>凱姆</h2>
+                    <img src="images/evokers/003.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/004.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>典故疑似來自所羅門72柱神，排行第52名，形象為鳥，具有理解生物語言、甚至理解無機物的能力，史學中論述到曾是天使，但後來墮落了。<br>有時候還會看見他人未來並指引人們如何面對未來，這跟GBF凱姆劇中過於天才可以看破他人的設定很相似，同時也覺得別人很愚笨，然後提點他人的方式過於毒舌所以就一直被排斥，最後黑化</p>
+                </div>
+                <div class="tab-pane fade" id="death" role="tabpanel" aria-labelledby="death-tab">
+                    <h3>戀人</h3><h2>尼婭</h2>
+                    <img src="images/evokers/005.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/006.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>尼婭這詞跟＂愛慕、關係上的接近＂有相當大的關聯。<br>戀人要面對的是他做的決定各個會大大紐轉自己人生的走向，最為影響的是自己的價值觀跟道德觀，而在GBF劇中她做的選擇以及人生觀確實也嚇到了不少的觀眾</p>
+                </div>
+                <div class="tab-pane fade" id="temperance" role="tabpanel" aria-labelledby="temperance-tab">
+                    <h3>隱者</h3><h2>埃斯塔利奧拉</h2>
+                    <img src="images/evokers/007.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/008.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>史實人物不詳，但是設定上跟傳統塔羅牌中所述隱者的形象設定相當相近。同樣都是對世間上的認知失去色彩，跟劇情中所述被奪走了情感有類似的關係。<br>技能語原是法語的緣故，有可能是取自法國皇室的某位人物做參考。</p>
+                </div>
+                <div class="tab-pane fade" id="devil" role="tabpanel" aria-labelledby="devil-tab">
+                    <h3>力量</h3><h2>芙洛</h2>
+                    <img src="images/evokers/009.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/010.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>フラウ＝Frau(德文)=女士/女性之意，單純又直白的字義。<br>力量這張塔羅牌本身有神力、魅力、柔克鋼的意思，暗示女性的意味濃厚，神力又代表芙洛在GBF劇中力氣很大。<br>當力量失控時最有效的對待法是用更強大的溫柔，又影射到芙洛在GBF劇中長期因美貌被欺負，最後可無可忍跟惡魔簽契約報復想毀掉這個世界，平息他的方法唯有無止境的強大溫柔，而主角在劇中擔當了溫柔的角色。</p>
+                </div>
+                <div class="tab-pane fade" id="tower" role="tabpanel" aria-labelledby="tower-tab">
+                    <h3>魔術師</h3><h2>羅貝利亞</h2>
+                    <img src="images/evokers/011.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/012.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>羅貝利亞＝山梗菜：花語「惡意」，另外還有對於聲音有一定的執著。<br>22塔羅牌中「塔」是最負能量的一張牌，代表災難、破壞等你能想到的毀滅代名詞，做什麼就崩什麼，不過在劇中羅貝倒是把這些災難當成愉悅來看待，不論是哪方的痛苦一律都覺得爽。<br>直到最後劇情中羅貝因為失敗了一次任務，塔就把至今為此他毀滅過的任何一個人的痛苦回饋於他自身，他依然感到愉悅跟幸福</p>
+                </div>
+                <div class="tab-pane fade" id="star" role="tabpanel" aria-labelledby="star-tab">
+                    <h3>戰車</h3><h2>蓋森伯格</h2>
+                    <img src="images/evokers/013.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/014.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>塔羅牌戰車其中一個特性是：堅定不移的信心跟決心，不放棄，這跟在GBF劇中不惜跟星星簽訂契約也要拚死光榮返回祖國的設定相應。<br>另一個特性是命懸一線，戰車沒有所謂的休息，一生只能靠戰鬥來證明自己，否則只能凋零。<br>很操勞的一張牌。</p>
+                </div>
+                <div class="tab-pane fade" id="moon" role="tabpanel" aria-labelledby="moon-tab">
+                    <h3>女教皇</h3><h2>哈潔莉拉</h2>
+                    <img src="images/evokers/015.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/016.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>哈潔跟歷史上的女教皇有一個共通點，那就是善於偽裝，GBF劇中哈潔確實也是一名偽裝實力媲美魯路修的強者。<br>塔羅牌女教皇代表：欺瞞，女性化，以及反抗，GBF劇中哈潔一直被他哥哥卡璨里拉當成小孩，不被哥哥所依靠、甚至不讓哈潔碰國政，最後起了反抗之心隱瞞自己的實力假裝什麼都不會，但在暗中奮力學習想用一己之力在關鍵時刻幫助哥哥，藉此讓卡璨把哈潔當一回事。</p>
+                </div>
+                <div class="tab-pane fade" id="sun" role="tabpanel" aria-labelledby="sun-tab">
+                    <h3>教皇</h3><h2>亞萊南</h2>
+                    <img src="images/evokers/017.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/018.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>歷史原型疑似是就是參考自羅馬帝國教宗的形象，教宗的拉丁文是「PAPA」，有父親的意思，也因此亞萊南在GBF劇中除了經營轉生教，還收養了許多孤兒。<br>教皇這張塔羅牌不用我多說，跟宗教有巨大的關聯性，這張牌代表了神祇耶穌，在GBF劇中則是代表太陽。<br>教皇觸及的領域多半跟心靈層面有關係，所以在GBF教皇的戲份一直著重在心中的想法上，教皇負面的部分其中一項是多管閒事，GBF劇中被亞萊南所救的教徒不但不感謝亞萊南反而還推卸責任說一切都是他害的</p>
+                </div>
+                <div class="tab-pane fade" id="judgement" role="tabpanel" aria-labelledby="judgement-tab">
+                    <h3>皇帝</h3><h2>卡璨利拉</h2>
+                    <img src="images/evokers/019.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <img src="images/evokers/020.png" alt="Arcarum_Evokers" class="img-fluid">
+                    <p>牌如其人，既然是象徵皇帝的角色，那當然卡璨的身分自然是屬於貴族。<br>卡璨在GBF劇中前期是一點威嚴都沒有的，因為他不想管政治，只搞音樂，以皇帝的卡牌來說他是沒有野心的人，理應是缺點。但是透過搞音樂卡璨深入了民心反而身為皇帝領導力的特質顯現出來，雖然不是用在領導上。到了後期皇室滅族事件更是展現了高明的執行力，要說缺點大概就是太晚行動了，遲疑不決。這也是塔羅牌皇帝裡面有說到的缺點。皇帝還有一個致命的缺點是駕馭心高，這個特質反映在對待他的妹妹哈潔莉拉身上，控制慾太強，使人失去自由，這是父權的皇帝最常出現的負面特徵。也招致後來妹妹的私下反抗。</p>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!-- 召喚石介紹 -->
+    <div class="container pud-30" id="summons">
+        <h2 class="pud-30 text-center font-weight-bold">召喚石介紹<br>Arcarum Summons</h2>
+        <p>轉世系列召喚石加護主打角色攻刃，分類上跟神召系是屬於不一樣的加護，但兩者都吃同一層計算機且依賴普刃，部分副召有天司效果的加成，並且跟天司武器可疊加。<br>轉世石傷害計算比照主動技能，戰力越高打越痛，可打出40萬~100萬以上的傷害。而且轉世系列的召喚石終解後無論是HP還是ATK都超越了絕大部分的課金石頭。</p>
+        <div class="card-columns">
+          <div class="card">
+            <img src="images/summon/01.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">正義</h3>
+              <h4 class="card-subtitle">JUSTICE</h4>
+              <p class="card-text"><div class="card-element card-water">水屬性角色攻130%UP(普刃)<br>防禦力提升10%</div>搭配兔子，在神巴場可以有效地維持渾身血量，要注意的是若隊伍成員血量差距過大，使用召喚時就會有血量過溢/稀補的狀況。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：女帝 瑪利亞·特蕾莎</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/04.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">節制</h3>
+              <h4 class="card-subtitle">TEMPERANCE</h4>
+              <p class="card-text"><div class="card-element card-wind">風屬角色的HP靠近50%時攻UP(普刃)<br>(50%時140%)</div>主動技只要有上到狀態，對方會往後拉一個回合，適合在王滿珠的時候開。以風方陣來說就可以安心壓血，避免滅團，不過特動無效。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：隱者 埃斯塔利奧拉</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/07.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">星星</h3>
+              <h4 class="card-subtitle">STAR</h4>
+              <p class="card-text"><div class="card-element card-light">光屬性角色連擊UP，隨回合提升最大TA30%、DA50%<br>[體感10T以後才有效提升]</div>SSR化的技能數據沒變，變的只有延長效果回合，跟縮短CD，在意的話就塞個阿米拉之類的拉高TA機率。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：戰車 蓋森伯格</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/11.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="card-element card-fire">火屬性召喚石：太陽、惡魔</div>
+                <p class="card-text"><small class="text-muted">對應賢者：教皇 亞萊南、力量 芙洛</small></p>
+                <div class="card-element card-water">水屬性召喚石：正義、月亮</div>
+                <p class="card-text"><small class="text-muted">對應賢者：女帝 瑪利亞·特蕾莎、女教皇 哈潔莉拉</small></p>
+                <div class="card-element card-wind">風屬性召喚石：節制、審判</div>
+                <p class="card-text"><small class="text-muted">對應賢者：隱者 埃斯塔利奧拉、皇帝 卡璨利拉</small></p>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/02.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">吊人</h3>
+              <h4 class="card-subtitle">HANGEDMAN</h4>
+              <p class="card-text"><div class="card-element card-earth">土屬性角色攻130%UP(普刃)<br>防禦力提升10%</div>擁有隨機強化效果，特別是土隊最缺的群體加攻跟DA，終解後隨機狀態來到9種，且DA改為TA。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：愚者 凱姆</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/05.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">惡魔</h3>
+              <h4 class="card-subtitle">DEVIL</h4>
+              <p class="card-text"><div class="card-element card-fire">火屬性角色攻130%UP(普刃)<br>防禦力提升10%</div>終解之後才可以開場放慘霧的緣故，以此功能為目標的玩家需要花很長的一段培育期。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：力量 芙洛</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/08.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">月亮</h3>
+              <h4 class="card-subtitle">MOON</h4>
+              <p class="card-text"><div class="card-element card-water">水屬攻80%UP(屬性)<br>每T4%提升至140%</div>加護的狀態分成上弦月、半月、滿月，分別是２、２、１回合，任何時候用卡托魯延長都沒問題</p>
+              <p class="card-text"><small class="text-muted">對應賢者：女教皇 哈潔莉拉</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/10.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">審判</h3>
+              <h4 class="card-subtitle">JUDGEMENT</h4>
+              <p class="card-text"><div class="card-element card-wind">風屬性角色攻130%UP(普刃)<br>防禦力提升10%</div>當隊員被迫下場的時候可使用主動技復活，拉長角色4T的生命。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：皇帝 卡璨利拉</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/03.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">死亡</h3>
+              <h4 class="card-subtitle">DEATH</h4>
+              <p class="card-text"><div class="card-element card-dark">暗屬性角色攻130%UP<br>HP副作用消除</div>終終解後換來的是跟相近巴哈倍率的130%，硬要說缺點的話就是無法迴避死亡，但即使只做為副加護效果也是毀天滅地。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：戀人 尼婭</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/06.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">塔</h3>
+              <h4 class="card-subtitle">TOWER</h4>
+              <p class="card-text"><div class="card-element card-earth">土屬攻80%UP(屬性)<br>每T4%提升至140%</div>召喚CD全遊戲最長，SR16回合，終解11回合，終終解９回合。終解後最快4T才能使用召喚石，所以如何在吃到BUFF的狀態下打出來傷害是大難題之一。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：魔術師 羅貝利亞</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/09.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <h3 class="card-title">太陽</h3>
+              <h4 class="card-subtitle">SUN</h4>
+              <p class="card-text"><div class="card-element card-fire">火屬性角色連擊UP，隨回合提升最大TA30%、DA50%<br>[體感10T以後才有效提升]</div>主動技無法跟舞者的2、3技共存。效果只有1T的緣故，丟召喚的時候剛好吃到別人的濕婆就能夠傲視群雄了。</p>
+              <p class="card-text"><small class="text-muted">對應賢者：教皇 亞萊南</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/summon/12.png" class="card-img-top" alt="Arcarum_Summons">
+            <div class="card-body">
+              <p class="card-text">
+                <div class="card-element card-earth">土屬性召喚石：吊人、塔</div>
+                <p class="card-text"><small class="text-muted">對應賢者：愚者 凱姆、魔術師 羅貝利亞</small></p>
+                <div class="card-element card-light">光屬性召喚石：星星</div>
+                <p class="card-text"><small class="text-muted">對應賢者：戰車 蓋森伯格</small></p>
+                <div class="card-element card-dark">闇屬性召喚石：死亡</div>
+                <p class="card-text"><small class="text-muted">對應賢者：戀人 尼婭</small></p>
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- 素材交換一覽 -->
+    <div class="parallax-materials">
+        <div class="container pud-30" id="materials">
+            <h2 class="pud-30 text-center font-weight-bold">素材交換一覽<br>Arcarum Materials</h2>
+            <p class="text-center">從取得轉世系列召喚石至取得賢者所需的素材如下：</p>
+            <table class="table table-sm table-hover table-center">
+              <thead>
+                <tr>
+                  <th scope="col">素材名稱</th>
+                  <th scope="col">所需數量(個)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>生命之石柱</td>
+                  <td>137</td>
+                </tr>
+                <tr>
+                  <td>新星</td>
+                  <td>308</td>
+                </tr>
+                <tr>
+                  <td>智者環</td>
+                  <td>77</td>
+                </tr>
+                <tr>
+                  <td>貝魯姆文書</td>
+                  <td>552</td>
+                </tr>
+                <tr>
+                  <td>光環</td>
+                  <td>83</td>
+                </tr>
+                <tr>
+                  <td>金剛晶</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>銀天之輝</td>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <td>究竟之証</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>星晶塊</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>方陣之魂</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td>虹星晶</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>属性碎</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>舊召喚之魂</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td>新召喚之魂</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td>天司之魂</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>新方陣HL之魂</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>對應屬性斷片</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td>討滅戰素材</td>
+                  <td>100</td>
+                </tr>
+                <tr>
+                  <td>石片</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td>創世紀斷片</td>
+                  <td>80</td>
+                </tr>
+                <tr>
+                  <td>巴哈姆特紫電角</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <td>那魯格蘭丁</td>
+                  <td>50</td>
+                </tr>
+                <tr>
+                  <td class="td-border">生命之玉髄</td>
+                  <td class="td-border">1</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 轉蛋小遊戲 -->
+    <div class="container pud-30" id="gacha">
+      <h2 class="pud-30 text-center font-weight-bold">轉蛋小遊戲<br>Gacha Game</h2>
+      <h3>看完介紹還在猶豫該先做哪位賢者嗎？就讓幸運轉蛋幫你做決定吧！</h3>
+      <div class="gachabox">
+        <div class="gacharesult"></div>
+        <a onclick="javascript:call();">單抽出虹偷渡歐洲</a>
+      </div>
+    </div>
+
+    <!-- 嵌入地圖 -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.1928668782984!2d121.5209815150068!3d25.06145138395958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a94373992545%3A0x9163b4f7cd2fd893!2zMTA0OTHlj7DljJfluILkuK3lsbHljYDkuK3lsbHljJfot6_kuozmrrUxMjnomZ_mqJPkuYsy!5e0!3m2!1szh-TW!2stw!4v1559753118311!5m2!1szh-TW!2stw" width="100%" height="350" frameborder="0" style="border:0" class="gray" allowfullscreen></iframe>
+
+    <!-- 頁尾 -->
+    <footer class="pud-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <p><i class="fas fa-map-marker-alt"></i>　臺北市中山區中山北路2段129號5樓之2</p>
+                    <p><i class="fas fa-phone"></i>　02-25219192</p>
+                    <p><i class="fas fa-envelope"></i>　cygametaiwan@gmail.com</p>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <img src="images/QR.png" alt="ifood-QRCode" width="150" class="img-fluid d-block mx-auto">
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <p>KAERU- 網頁設計<br>
+                    本作品為個人習作，虛擬商店，並無商業行為，特此聲明<br>
+                    本網站部分圖文為個人製作，其餘資料乃搜集自網路，版權屬原作者所有。</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="dist/jquery-3.3.1.min.js"></script>
+    <script src="dist/popper.min.js"></script>
+    <script src="dist/bootstrap-421/js/bootstrap.min.js"></script>
+    <script src="dist/jquery.easing.1.3.js"></script>
+    <script src="dist/default.js"></script>
+</body>
+</html>

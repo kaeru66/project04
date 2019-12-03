@@ -1,0 +1,404 @@
+nav {
+    display: flex;
+    background-color: #a26c44;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    opacity: 0.9;
+}
+
+body {
+    margin-top: 100px;
+    font-family: "Microsoft JhengHei",'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.logo {
+    display: flex;
+    width: 226px;
+    height: 80px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+}
+
+/*輪播指示器改成圓形*/
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    margin: 0 6px;
+}
+
+/*輪播指示器 - 更改active的顏色*/
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    background-color:#c71212;
+    border: 2px solid #FFF;
+    margin-top: 7px;
+}
+/*內距上下各30px*/
+.pud-30 {
+    padding: 30px 0;
+}
+/*內距左右各30px*/
+.plr-30 {
+    padding: 0 30px;
+}
+/*內距上30px*/
+.pu-30 {
+    padding-top: 30px;
+}
+/*內距下30px*/
+.pd-30 {
+    padding-bottom: 30px;
+}
+/*內距左30px*/
+.pl-30 {
+    padding-left: 30px;
+}
+/*內距右30px*/
+.pr-30 {
+    padding-right: 30px;
+}
+
+/*外距上下各30px*/
+.mud-30 {
+    margin: 30px 0;
+}
+/*外距左右各30px*/
+.mlr-30 {
+    margin: 0 30px;
+}
+/*外距上30px*/
+.mu-30 {
+    margin-top: 30px;
+}
+/*外距下30px*/
+.md-30 {
+    margin-bottom: 30px;
+}
+/*外距左30px*/
+.ml-30 {
+    margin-left: 30px;
+}
+/*外距右30px*/
+.mr-30 {
+    margin-right: 30px;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    color: #dd7703;
+    border-bottom: 1px #CCC solid;
+    padding-bottom: 1em;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+/* 灰階濾鏡 */
+.gray {
+    filter: grayscale(100%);
+}
+/* 頁尾 */
+footer {
+    background: #000;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* TOP按鈕 */
+.top {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+    background: #181818;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 100%;
+    position: fixed;
+    right: 2%;
+    bottom: 5%;
+    opacity: 0;
+}
+.top:hover {
+    background: #FFF;
+    color:#000;
+    border: 2px solid #929292;
+    text-decoration: none; 
+}
+/* 內容左右垂直居中 */
+.box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about p {
+    text-align: justify;
+}
+
+/*十賢者頁籤顏色*/
+.parallax-evokers {
+    width: 100%;
+    min-height: 600px;
+    background-image: url(../images/bg/bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#evokers .tab-content h2 {
+    margin-bottom: 20px;
+    border-left: 7px solid #c10013;
+    padding-left: 10px;
+}
+#evokers .tab-content h3 {
+    font-size: 1.5em;
+    color: #c10013;
+    margin-bottom: 0;
+    border-bottom: none;
+    padding: 5px 0;
+}
+#evokers .tab-content p {
+    margin: 20px;
+}
+#evokers .tab-content img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.nav-tabs li .nav-link {
+    color: #000;
+    background-color: #FFF;
+    margin: 0 3px;
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+#evokers .nav-tabs li:nth-child(1) .nav-link.active { color: #19448e; background-color: #bce2e8;}
+#evokers .nav-tabs li:nth-child(2) .nav-link.active { color: #8f2e14; background-color: #efcd9a;}
+#evokers .nav-tabs li:nth-child(3) .nav-link.active { color: #7a4171; background-color: #dbd0e6;}
+#evokers .nav-tabs li:nth-child(4) .nav-link.active { color: #00552e; background-color: #98d98e;}
+#evokers .nav-tabs li:nth-child(5) .nav-link.active { color: #c9171e; background-color: #f5b1aa;}
+#evokers .nav-tabs li:nth-child(6) .nav-link.active { color: #8f2e14; background-color: #efcd9a;}
+#evokers .nav-tabs li:nth-child(7) .nav-link.active { color: #e5a323; background-color: #fef263;}
+#evokers .nav-tabs li:nth-child(8) .nav-link.active { color: #19448e; background-color: #bce2e8;}
+#evokers .nav-tabs li:nth-child(9) .nav-link.active { color: #c9171e; background-color: #f5b1aa;}
+#evokers .nav-tabs li:nth-child(10) .nav-link.active { color: #00552e; background-color: #98d98e;}
+
+/* 召喚石卡片 */
+.card-body h3 {
+    font-size: 2em;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.card-body h4 {
+    font-size: 1.4em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    border-bottom: 3px solid #eccca7;
+}
+.card-element {
+    margin: 10px 0;
+}
+.card-fire { color: #c9171e;}
+.card-water { color: #19448e;}
+.card-wind { color: #00552e;}
+.card-earth { color: #8f2e14;}
+.card-light { color: #e5a323;}
+.card-dark { color: #7a4171;}
+
+/* 素材一覽 */
+.parallax-materials {
+    width: 100%;
+    min-height: 600px;
+    background-image: url(../images/bg/bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.table thead th, .table td {
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    background: #FFF;
+}
+.td-border {
+    border-bottom: 1px solid #dee2e6;
+}
+.table thead th {
+    background: #eccca7;
+    color: #5d3518;
+}
+/*轉蛋*/
+#gacha .gachabox {
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#gacha .gacharesult {
+    border: 3px solid #ab7b57;
+    border-radius: 30px;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    background: url(../images/gacha.png) no-repeat center center;
+    background-size: cover;
+}
+
+#gacha .gachabox a {
+	cursor: pointer;
+	border-radius: 5px;
+	color: #fff;
+	background: #96460a;
+	padding: 12px 15px;
+	line-height: 1.2;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+#gacha .gachabox a:active{ box-shadow: 0 0 5px #000 inset; }
+#gacha .gachabox a:active{ box-shadow: 0 0 5px #FFF inset; }
+#gacha h3 {
+    text-align: center;
+}
+
+
+/*桌機版PC*/
+@media screen and (min-width:992px){
+    .containerNAV {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .fas.fa-bars, .fas.fa-times {
+        display: none;
+    }
+    .linkbar {
+        display: flex;
+        align-items: center;
+    }
+    .linkbar a{
+        display: flex;
+        color: #FFF;
+        text-decoration: none;
+        margin: 0 15px;
+        justify-content: center;
+    }
+    .linkbar a:hover{
+        color: #fff94b;
+    }
+    .iconbar {
+        display: flex;
+        width: 120px;
+        font-size: 24px;
+    }
+    .iconbar a:hover{
+        color: #5dd2f9;
+    }
+    .table-center {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+/*PHONE*/
+@media screen and (max-width:991px){
+    .containerNAV {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .fas.fa-bars,.fas.fa-times {
+        font-size: 45px;
+        color: #FFF;
+        text-decoration: none;
+        display: flex;
+        margin-left: auto;
+        margin-right: 5%;
+    }
+    .fas.fa-times {
+        display: none;
+    }
+    .logo {
+        margin-left: 5%;
+    }
+    .linkbar {
+        background-color: #000;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+        z-index: 9999;
+    }
+    .linkbar a {
+        display: flex;
+        color: #FFF;
+        text-decoration: none;
+        padding: 14px 0;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #CCC;
+    }
+    .linkbar a:focus {
+        background-color: #FFF;
+        color: #000;
+    }
+    .iconbar {
+        display: flex;
+        justify-content: center;
+    }
+    .iconbar a {
+        font-size: 45px;
+        color: #FFF;
+        text-decoration: none;
+        display: flex;
+        margin: 15px;
+        border-bottom: 0;
+    }
+    nav {
+        align-items: flex-start;
+        padding-top: 10px;
+    }
+    .row {
+        padding: 0 5%;
+    }
+    .burgersand div {
+        margin: 1.2em 0;
+    }
+    footer .container .row div {
+        margin: 10px 0;
+    }
+    .nav-tabs li .nav-link {
+        margin: 3px;
+    }
+    .table-center {
+        width: 100%;
+    }
+}
